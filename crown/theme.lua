@@ -41,9 +41,7 @@ end
 --}}}
 
 -- {{{ Styles
-theme.font      = "Droid Sans 8"
-
--- {{{ Colors
+theme.font      = "Droid Sans 16"
 
 --theme.bg_normal = "#343030"
 --theme.bg_focus = "#b3885e"
@@ -105,8 +103,8 @@ theme.mouse_finder_color = "#CC9393"
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_height = "15"
-theme.menu_width  = "100"
+theme.menu_height = "40"
+theme.menu_width  = "200"
 theme.menu_border_width = "0"
 -- }}}
 
