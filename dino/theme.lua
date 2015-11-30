@@ -5,23 +5,23 @@
 theme = {}
 
 theme.dir = os.getenv("HOME") .. "/.config/awesome/themes/dino"
-theme.font          = "Terminus 8"
+theme.font          = "Roboto Mono 8"
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
+theme.bg_normal     = "#220906"
+theme.bg_focus      = "#5a3324"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#aaaaaa"
+theme.fg_normal     = "#f8b27f"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.border_width  = 1
 theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
-theme.border_marked = "#91231c"
+theme.border_focus  = "#f8b27f"
+theme.border_marked = "#00ff00"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -99,7 +99,7 @@ theme.layout_uselesstile = theme.dir .. "/layouts/tilew.png"
 
 theme.awesome_icon = "/usr/share/awesome/icons/awesome16.png"
 
--- Define the icon theme for application icons. If not set then the icons 
+-- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
 theme.icon_theme = nil
 
